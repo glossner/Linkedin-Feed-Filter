@@ -2,6 +2,7 @@
 linkedin.com#?#div:-abp-has(> .feed-shared-header:-abp-contains(/likes this|loves this|Popular course|Tau Beta Pi Engineering Honor Society|Eta Kappa Nu|Lucent Technologies|Penn State Alumni/i))
 linkedin.com#?#.feed-shared-promo
 linkedin.com#?#div:-abp-has(> .feed-shared-actor:-abp-contains(/Technische Universiteit Delft/i))
+linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Trump|Biden/))
 
 ! annoying side blocks
 linkedin.com#?#.pb3.pt2.learning-top-courses
