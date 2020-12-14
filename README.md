@@ -5,7 +5,7 @@ Add the lines in filter.txt to uBlock origin (open the dashboard and tab to My F
 
 It also allows hiding of subscribed groups and filtering out political posts
 
-MAKE SURE to sort your feed by recent.
+It may be helpful to sort your feed by recent.
 
 ## Getting uBlock to run on feed updates
 
