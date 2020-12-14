@@ -1,9 +1,24 @@
-! feed
-linkedin.com#?#div:-abp-has(> .feed-shared-header:-abp-contains(/likes this|loves this|celebrates this|commented on this|Popular course|Tau Beta Pi Engineering Honor Society|Eta Kappa Nu|Lucent Technologies|Penn State Alumni|big data/i))
-linkedin.com#?#.feed-shared-promo
-linkedin.com#?#div:-abp-has(> .feed-shared-actor:-abp-contains(/Technische Universiteit Delft/i))
-linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Trump|Biden/))
+!######### Tested only with uBlock Origin
 
-! annoying side blocks
+!######## Remove Groups and Suppress some or all like/comments/posts from chatty contacts ################
+## Block everything from John Doe, likes from Jane Doe
+linkedin.com#?#div:-abp-has(> .feed-shared-header:-abp-contains(/John Doe|Jane Doe likes this/i))
+
+!######## For connections that repost too much content ###########
+linkedin.com#?#div:-abp-has(> .feed-shared-actor:-abp-contains(/John Adams|George Washington/i))
+
+!########### Groups you don't want to see. Sometimes a group will appear in more than one feed. #############
+linkedin.com#?#div:-abp-has(> .feed-shared-header:-abp-contains(/Popular course|So and So Honor Society|University of Junk|Business Group of Junk/i))
+linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Business Group of Junk/i))
+linkedin.com#?#div:-abp-has(> .feed-shared-actor:-abp-contains(/University of Junk|Other Junk/i))
+
+!########### annoying side blocks and ads ############
 linkedin.com#?#.pb3.pt2.learning-top-courses
 linkedin.com#?#.feed-follows-module
+linkedin.com#?#.feed-shared-promo
+linkedin.com#?#.global-footer-compact
+linkedin.com#?#.msg-overlay-bubble-header
+linkedin.com#?#.msg-overlay-list-bubble
+
+!########### Politics #############
+linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Trump|Biden/i))
