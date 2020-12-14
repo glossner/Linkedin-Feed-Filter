@@ -12,13 +12,13 @@ linkedin.com#?#div:-abp-has(> .feed-shared-header:-abp-contains(/Popular course|
 linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Business Group of Junk/i))
 linkedin.com#?#div:-abp-has(> .feed-shared-actor:-abp-contains(/University of Junk|Other Junk/i))
 
-!########### annoying side blocks and ads. Optionally restrict to just the feed ############
+!########### annoying side blocks and ads ############
 linkedin.com#?#.pb3.pt2.learning-top-courses
 linkedin.com#?#.feed-follows-module
 linkedin.com#?#.feed-shared-promo
 linkedin.com#?#.global-footer-compact
-linkedin.com/feed#?#.msg-overlay-bubble-header
-linkedin.com/feed#?#.msg-overlay-list-bubble
+linkedin.com#?#.msg-overlay-bubble-header
+linkedin.com#?#.msg-overlay-list-bubble
 
 !########### Politics #############
 linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Trump|Biden/i))
