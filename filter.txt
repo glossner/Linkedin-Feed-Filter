@@ -17,8 +17,7 @@ linkedin.com#?#.pb3.pt2.learning-top-courses
 linkedin.com#?#.feed-follows-module
 linkedin.com#?#.feed-shared-promo
 linkedin.com#?#.global-footer-compact
-linkedin.com#?#.msg-overlay-bubble-header
-linkedin.com#?#.msg-overlay-list-bubble
+linkedin.com#?#div:-abp-has(> .msg-overlay-bubble-header)
 
 !########### Politics #############
 linkedin.com#?#div:-abp-has(> .feed-shared-update-v2:-abp-contains(/Trump|Biden/i))
